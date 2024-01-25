@@ -17,9 +17,13 @@ function topBar() {
             <Navbar.Collapse id="basic-navbar-nav">
                  <Nav className="mr-auto">
                  </Nav>
-                 <Nav className="ml-auto">
-                      <Nav.Link href="#LogIn">Log In</Nav.Link>
-                      <Button variant="success">Sign Up</Button>{' '}
+                 <Nav style={{padding: "24px 40px 20px 40px", fontSize: "18px", lineHeight: "26px", fontWeight: "bolder", display: "flex" }}>
+                      <Nav.Link  
+                      style={{color: "#343538"}} 
+                      href="#LogIn">Log In</Nav.Link>
+                      <Button 
+                      variant="success"
+                      style={{fontSize: "18px"}}>Sign Up</Button>{' '}
                  </Nav>
             </Navbar.Collapse>
        </Navbar>
